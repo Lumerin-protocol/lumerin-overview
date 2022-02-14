@@ -57,7 +57,7 @@ The Lumerin Marketplace utilizes an Ethereum-based blockchain to mine and mint L
 1. Download the Lumerin open source software and install on node 
     * Setup, configuration and details included in that repository
     * Connect to the Lumerin public P2P network and become part of the Lumerin network
-1. Connect to `lumerin.io` and sign in to become hashrate provider (KYC and AML checks) 
+1. Connect to `lumerin.io` and sign in to become hashrate provider 
 1. Purchase Lumerin token (ERC 20) with Ethereum or other currency via exchange 
 1. Create a "Seller's Contract" or Implementation via the Lumerin clone factory 
     * **X Hashrate for Y Duration for N Lumerin** 
@@ -69,7 +69,7 @@ The Lumerin Marketplace utilizes an Ethereum-based blockchain to mine and mint L
 **Figure 3.2 - Seller Journey**
 
 ### Buyer's Journey (Purchasing Contract)
-1. Connect to `lumerin.io` and sign in to become hashrate consumer (KYC and AML checks) 
+1. Connect to `lumerin.io` and sign in to become hashrate consumer
 1. Purchase Lumerin token (ERC 20) with Ethereum or other currency via exchange 
 1. Browse & select Available contracts 
 1. Provide source of Lumerin, Gas and stratum address of target mining pool
