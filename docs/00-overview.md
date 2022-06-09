@@ -4,13 +4,11 @@ Latest update: December 5, 2021
 
 ## Introduction
 
-Welcome to an overview of Titan’s Lumerin Marketplace and the value of mining the Lumerin token to ensure secure, open, equitable trading of provable hashpower. 
+Welcome to an overview of the Lumerin Marketplace to ensure secure, open, equitable trading of provable hashpower. 
 
 With the tremendous advancements in technology, the aggregation of mining entities, and visibility on the global stage, there is a need to improve efficiency and effectiveness of mining investments including leveraging surplus energy existing in the power grid and excess cycles available in mining farms.  
 
 Lumerin will bring hashpower owners together with interested consumers for that hashpower designed to trade much like a standard utility or commodity. All of this will be done by leveraging the concepts and foundation of a decentralized, secure and open ledger system that self secures and self supports.
-
-In order to understand the necessity of a blockchain marketplace like Lumerin, we must start at the beginning.
 
 ## Stage 1 - Basics
 ![Blockchain fundamentals](images/00-overview/macroStage1Base.svg "image_tooltip")
@@ -39,7 +37,7 @@ More recently, there have been new entrants into the industrial mining landscape
 ![Energy Suppliers Mining](images/00-overview/macroStage4Energy.svg "image_tooltip")
 **Figure 2.3 - Larger Industrial Mining Farms with Colocated Power Generation**
 
-At this point in time, we have a great deal of new actors and demands on the overall blockchain and Bitcoin systems that are driving innovation like the Lumerin Marketplace & Token.  Many individuals and companies want to reap rewards with managed risk of investment, power companies want to drive efficiencies in their industry, financial institutions and regulators want to ensure stability of commerce, bad actors want to take advantage of a system in its infancy to their gain, and at the end of the day, some folks just want to buy their cup of coffee or new Tesla with digital currency.   
+At this point in time, we have a great deal of new actors with demands on the overall blockchain systems that are driving innovation like the Lumerin Marketplace.  Many individuals and companies want to reap rewards with managed risk of investment, power companies want to drive efficiencies in their industry, financial institutions and regulators want to ensure stability of commerce, bad actors want to take advantage of a system in its infancy to their gain, and at the end of the day, some folks just want to buy their cup of coffee or new Tesla with digital currency.   
 
 Which brings us to the critical challenge in the next stage of blockchain evolution:  `How do we guarantee the open and decentralized nature of blockchain, keep bad actors at bay, and provide secure commerce for the buying, selling and trading of hashpower that is the underpinning of the developing global cryptocurrency economy?` 
 
@@ -50,43 +48,46 @@ The solution is to use fundamental decentralized blockchain concepts, coupled wi
 ![Hashrate Marketplace](images/00-overview/macroStage5Hashrate.svg "image_tooltip")
 **Figure 3.1 - Lumerin Hashrate Marketplace Conceptual Architecture**
 
-The Lumerin Marketplace utilizes an Ethereum-based blockchain to mine and mint Lumerin tokens. These blocks contain smart contracts and transactions that describe sellers’ hashrate capabilities and combine them with buyers’ intended purchases.  The reward and contract fees for the Lumerin blocks are distributed back to the hashrate providers upon successful completion of the contract while the contract buyers share in the potential mining reward on the designated blockchain.
+The Lumerin Marketplace utilizes the Ethereum blockchain. These blocks contain smart contracts and transactions that describe sellers 'hashrate capabilities' and combine them with buyers intended purchases.  The reward and contract fees for the Lumerin blocks are distributed back to the hashrate providers upon successful completion of the contract while the contract buyers share in the potential mining reward on the designated blockchain.
 
 
 ### Seller's Journey (Offering Contract)
-1. Download the Lumerin open source software and install on node 
+1. Download the Lumerin open source software and install on desktop 
     * Setup, configuration and details included in that repository
     * Connect to the Lumerin public P2P network and become part of the Lumerin network
-1. Connect to `lumerin.io` and sign in to become hashrate provider 
-1. Purchase Lumerin token (ERC 20) with Ethereum or other currency via exchange 
-1. Create a "Seller's Contract" or Implementation via the Lumerin clone factory 
+1. Purchase Lumerin token with Ethereum or other currency via exchange 
+1. Create a "Seller's Contract"
     * **X Hashrate for Y Duration for N Lumerin** 
-1. Submit the Contract to the Lumerin Network Blockchain 
+1. Submit the Contract to the ETH Blockchain through the Lumerin Marketplace
 1. Wait...for the contract to be purchased by a buyer 
-    * Seller can revoke or edit an Available contract at any time 
+    * Seller can cancel an Available contract at any time 
 
 ![Seller Journey](images/00-overview/Seller.svg "image_tooltip")
 **Figure 3.2 - Seller Journey**
 
 ### Buyer's Journey (Purchasing Contract)
-1. Connect to `lumerin.io` and sign in to become hashrate consumer
-1. Purchase Lumerin token (ERC 20) with Ethereum or other currency via exchange 
-1. Browse & select Available contracts 
-1. Provide source of Lumerin, Gas and stratum address of target mining pool
-1. Wait .... for the contract to be executed on the target pool
+1. Purchase Lumerin token with Ethereum or other currency via exchange 
+2. Go to `marketplace.lumerin.io` and connect to your wallet
+3. Browse & select Available contracts 
+4. Purchase hashrate contract using Lumerin Token
+5. Enter contract details (pool addresss, port number, and username/password)
+6. Review and confirm order
+7. There are two transaction confirmations associated with the hashrate purchase
+8. Once the transaction is confirmed a popup will appear allowing you to view the order
 
 ![Buyer Journey](images/00-overview/Buyer.svg "image_tooltip")
 **Figure 3.3 - Buyer Journey**
 
 ### Contract Journey 
 #### Execution State
-1. Contract is Running  
-1. Lumerin tokens from buyer are in escrow, waiting for successful execution 
-1. Instructions are sent to Mining Farm to execute contract on desired pool for desired blockchain for agreed contract terms (difficulty/hashrate)
-1. Mining begins...(mining farm has become part of the desired pool and solving target hashes)
+1. ERC contract is running waiting for a successful delivery of hashpower based on the terms of the contract
+2. The marketplace validator is confirming that the correct amount of hashrate is being routed to the targeted pool
+3. Succesful hashpower delivery to targeted pool for full duration
+4. Records complete contract fulfullment on ETH Blockchain
+5. Contract closed  
 
 #### Early Termination Event
-1. If the contract is Running and is terminated early, the contract will be concluded and pro-rated Lumerin will be transferred to seller and remainder transferred back to buyer based on hashrate actually delivered.
+1. If the contract is Running and is terminated early, the contract will be concluded and a pro-rated, completed part of the contract will be transferred to seller and buyer based on the hashrate that was determined to be delivered.
     * Termination can happen at buyer or seller request or for any failure where the agreed hashrate is not delivered 
 1. Example: 
     * A 24 hour contract has been purchased 
@@ -95,12 +96,6 @@ The Lumerin Marketplace utilizes an Ethereum-based blockchain to mine and mint L
     * 1/2 the agreed contract amount will be transferred from escrow to the seller, 
     * 1/2 the remaining contract amount will be transferred from escrow to the buyer, 
     * Contract will be marked as Completed
-
-#### Successful State
-1. Upon successful completion and verification of executed hashrate
-1. Full amount of purchase will be transferred from escrow to buyer 
-1. Contract will be marked as Completed 
-1. Any rewards or incentives from target blockchain mining will be transferred from that pool directly to buyer's provided wallet address
 
 ![Contract Journey](images/00-overview/contract.svg "image_tooltip")
 **Figure 3.4 - Contract Journey**
