@@ -1,6 +1,6 @@
 # Lumerin Overview 
-December 2021 | DRAFT v.2
-Latest update: December 5, 2021
+DRAFT v.3
+Latest update: June 16th, 2022
 
 ## Introduction
 

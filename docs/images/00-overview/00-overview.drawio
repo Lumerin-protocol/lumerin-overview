@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="9">
     <diagram name="Stage 1 - Base" id="c5_FTI9pEN4ZisQKRxhd">
-        <mxGraphModel dx="862" dy="1395" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+        <mxGraphModel dx="846" dy="1395" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
             <root>
                 <mxCell id="NCU8j3G82zX99NCB6PMd-0"/>
                 <mxCell id="NCU8j3G82zX99NCB6PMd-1" parent="NCU8j3G82zX99NCB6PMd-0"/>
@@ -1354,7 +1354,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="Stage 4 - Energy Integration" id="bNv8Ua8M5-yzVsqjY9aU">
-        <mxGraphModel dx="606" dy="1395" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+        <mxGraphModel dx="846" dy="1395" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
             <root>
                 <mxCell id="rZcYbeYWSv_WplNunHWM-0"/>
                 <mxCell id="rZcYbeYWSv_WplNunHWM-1" parent="rZcYbeYWSv_WplNunHWM-0"/>
@@ -1702,7 +1702,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="Stage 5 - Hashrate Cmdty" id="tw0stDXoN7vnyebfcw78">
-        <mxGraphModel dx="862" dy="1395" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+        <mxGraphModel dx="846" dy="1395" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
             <root>
                 <mxCell id="PidLAnUxJjnynKRsg_Gv-0"/>
                 <mxCell id="PidLAnUxJjnynKRsg_Gv-1" parent="PidLAnUxJjnynKRsg_Gv-0"/>
